@@ -1,5 +1,5 @@
 <div class="breadcrumbs">
-[Documentation](/) / Foundation / Organization
+[Documentation](/) / Foundation / Getting Started / Organization
 </div>
 
 # Organization

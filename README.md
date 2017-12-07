@@ -27,9 +27,9 @@ The framework consists of a set of precomposed, commonly-used, front-end **user 
 
 ## Getting Started
 
-If this is your first time getting started with the framework you should follow the instructions in [Setup and Configuration](/setup-and-configuration). If you are using the framework for the purpose of wireframing and prototyping and this is your first time, read over [Designing with the Framework](/foundation/for-designers/design-with-the-framework). If you are contributing to the framework, squashing bugs, or developing new components of your own [Developing with the Framework](developing-with-the-framework) is where you'll want to start.
+If this is your first time getting started with the framework you should follow the instructions in [Setup and Configuration](/foundation/getting-started/setup-and-configuration). If you are using the framework for the purpose of wireframing and prototyping and this is your first time, read over [Designing with the Framework](/foundation/for-designers/design-with-the-framework). If you are contributing to the framework, squashing bugs, or developing new components of your own [Developing with the Framework](developing-with-the-framework) is where you'll want to start.
 
-* [Setup & Configuration](/setup-and-configuration)
+* [Setup & Configuration](/foundation/getting-started/setup-and-configuration)
 * [Designing with the Framework](/foundation/for-designers/design-with-the-framework)
 * [Developing with the Framework](/foundation/for-developers/developing-with-the-framework)
 

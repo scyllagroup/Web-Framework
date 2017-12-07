@@ -1,34 +1,28 @@
 <div class="breadcrumbs">
-[Documentation](/) / Foundation / Setup and Configuration
+[Documentation](/) / Foundation / Getting Started / Setup and Configuration
 </div>
 
 # Setup and Configuration
 
-## Software and Requirements
+## Starting a New Project
 
-### Required Software
+New projects can be started by any team member. Visit out [Git repository](http://git.scylla.local/Repository/Index) to create new projects. Under the **Scylla** header you'll find a project called **webframework-ui**. Click this project to view the detail page. You can then use the clone button to create your new project from the latest and greatest version of the web framework.
+
+Convention is important and will help us maintain a clean and organized repository. Please use the website address followed by a hyphen (-) and finally the word design. For example: **scyllagroup.com-design**, or use the client name **scyllagroup-design**.
+
+```
+git clone http://git.scylla.local/WebFramework.git
+```
+
+### Installing a Project Locally
+
+<!-- ### Required Software
 
 1.  Install [Git](https://git-scm.com/downloads)
     *   When asked if you would like Git to run from its own command window, select the 2nd option to run it from the windows command line too.
     *   When asked about line endings, select the 3rd and last option so that Git does not force or change line endings at all.
-2.  Install [Node.js](https://nodejs.org/en/download/)
-3.  Install [Visual Studio Code](https://code.visualstudio.com/#alt-downloads)
-
-### Optional Software
-
-1. Webpack
-2. Yarn
-3. Babel-Node
-
-TBD.
-
-## Starting a New Project
-
-New projects can be created by anybody, but it's preferable to consult with the development team before creating new projects. Visit our [Git repository](http://git.scylla.local/Repository/Index) to create new projects. You'll need to log in with your Windows username and password. Under the **Scylla** header you'll find a project called **webframework-ui**. Click this project to view the detail page. You can then use the clone button to create your new project from the latest and greatest version of the web framework.
-
-Convention is important and will help us maintain a clean and organized repository. Please use the website address followed by a hyphen (-) and finally the word design. For example: **scyllagroup.com-design**, or use the client name **scyllagroup-design**.
-
-### Installing a Project Locally
+2.  Install [NodeJS](https://nodejs.org/en/download/)
+3.  Install [Visual Studio Code](https://code.visualstudio.com/#alt-downloads) -->
 
 If you have any trouble at all please refer to the "readme.md" file. It is located at the root directory of your project and you should be able to open and read it with Visual Studio Code. It should contain the latest instructions on how to build and run the project.
 

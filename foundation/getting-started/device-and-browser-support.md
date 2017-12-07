@@ -1,5 +1,5 @@
 <div class="breadcrumbs">
-[Documentation](/) / Device & Browser Support
+[Documentation](/) / Foundation / Getting Started / Device & Browser Support
 </div>
 
 # Device & Browser Support
