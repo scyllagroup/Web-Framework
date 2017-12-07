@@ -7,11 +7,11 @@
 
 ## For Designers
 
-*   × [Designing with the Framework](/design-with-the-framework)
+*   × [Designing with the Framework](/foundation/for-designers/design-with-the-framework)
 
 ## For Developers
 
-*   × [Developing with the Framework](/developing-with-the-framework)
+*   × [Developing with the Framework](/foundation/for-developers/developing-with-the-framework)
 
 ## Using the Framework
 
