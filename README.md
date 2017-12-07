@@ -4,20 +4,28 @@
 <p>v1.0.0</p>
 </div>
 
+## Introduction
+
+The Scylla Web Framework serves as the foundation for our web-based projects and applications. 
+
+The framework consists of a set of precomposed, commonly-used, front-end **user interface** elements and components, **conventions** that encourage knowledge-sharing across team members and ensure we implement best practices for developing on the web across large teams, and lastly we have an agnostic **build system** enabling: design-in-browser, testing, and output of production-ready assets.
+
+### Highlights
+
+* Rapidly wireframe, concept, and prototype websites.
+* Easy onboarding or transition for graphic designer roles to begin proofing their work in browser.
+* Encourages knowledge sharing across team members with varying amounts of experience, such as junior and senior levels, or team members with varying roles and disciplines such as graphic designers, front-end developers, and back-end developers.
+* Conventions in the framework help the entire team follow best practices in web development.
+* Testability 
+
+### Dependencies
+
+* To start, you should have both **Git** and **NodeJS** installed.
+* The build system makes use of: **Babel**, **WebPack**, and **BrowserSync**.
+* The testing strategy makes use of: **Mocha**, and **Selenium** (with support for **Browser Stack**).
+* Other notable projects include **PostCSS**, **ESLint**, and **Imagemin**.
+
 ## Getting Started
-
-Our web framework serves as the foundation for our web-based projects and applications. It's composed of non-intrusive CSS resets, styled elements, and javascript components built with responsiveness and progressive enhancement in mind. You can choose to use the entire framework, or strip only the parts you need.
-
-Some highlights:
-
-* Front-end code is written in **HTML**, **SCSS** (for CSS), and **ES6** (for JavaScript).
-* The following technologies are used in the build stack: **Node**, **Babel**, and **WebPack**.
-* The following are used for testing: **Browsersync**, **Mocha**, and **Selenium** with support for **Browser Stack**.
-* Our Web Framework makes no assumptions about the back-end, thus it will work in any environment or technology-stack.
-* Since we are primarily focused on delivering **ASP.NET MVC** solutions, like **Umbraco**-powered web sites, the Web Framework is not entirely free from influence.
-* **Visual Studio Code** is the IDE of choice. The project even contains settings to speed along the setup of the project in this IDE. But you are more than welcome to use any editor you are comfortable with.
-
-## What Next?
 
 If this is your first time getting started with the framework you should follow the instructions in [Setup and Configuration](/setup-and-configuration). If you are using the framework for the purpose of wireframing and prototyping and this is your first time, read over [Designing with the Framework](/foundation/for-designers/design-with-the-framework). If you are contributing to the framework, squashing bugs, or developing new components of your own [Developing with the Framework](developing-with-the-framework) is where you'll want to start.
 
@@ -25,11 +33,17 @@ If this is your first time getting started with the framework you should follow 
 * [Designing with the Framework](/foundation/for-designers/design-with-the-framework)
 * [Developing with the Framework](/foundation/for-developers/developing-with-the-framework)
 
-## Change Log
+## More About The Project
+
+### Development Roadmap
+
+A [development roadmap](/roadmap) is available outlining our initiatives and planned releases.
+
+### Change Log
 
 Our [Change Log](/change-log) documents all the major, minor, and patch releases for the Web Framework.
 
-## License
+### License
 
 This work is licensed as follows: Attribution-ShareAlike 4.0 International. The Creative Commons Corporation describes it as such:
 
@@ -37,7 +51,7 @@ This work is licensed as follows: Attribution-ShareAlike 4.0 International. The 
 
 [Read the entirity of the license](/license).
 
-## Resources
+### Resources
 
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - Docute - [Website](https://docute.js.org/#/home) [Helpers](https://docute.js.org/#/home?id=doc-helpers)
