@@ -10,9 +10,12 @@
 *   _Data attributes below should be applied to the element used as a toggle._
 *   Use `data-default` to identify the default active accordion on load.
 *   Use `data-reveal` to provide a CSS query selector to the element that you would like to toggle on/off on click or touch.
+*   Every toggle has one corresponding element to be toggled through the 'data-reveal' attribute.
 *   Accordions can (optionally) be grouped together so only 1 can be active at a time. Create groups with the `data-group` attribute.
 *   You can force accordion groups to always leave at least 1 accordion active with the `data-always-open` attribute.
 *   An active accordion element will contain the modifier class `.-active` which can be used for styling.
+*   Use `data-set-height` to provide a css selector of the parent element for a group of accordions. This will set the height of the parent element to the height of the     biggest child accordion element. 
+*   If the `data-set-height` attribute is used with a `data-stacked` attribute, the height of the parent element will be calculated with the sum of all child                accordion elements.
 
 ## Roadmap
 

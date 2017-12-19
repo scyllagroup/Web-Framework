@@ -7,6 +7,8 @@
 ## Highlights
 
 *   Multiple navigation systems are supported: standard, sub-menu, dropdown, and mega-dropdown.
+*   Menus displayed on navigation item hover have a timeout when user cursor transition between navigation items occurs. The timeout will be reset if the cursor returns     to the original revealed menu. This prevents instantly showing and hiding menus on accidnetal cursor movements.
+*   By default, the navigation has a hamburger menu on that will slide navigation menus in and out of view on small and extra small displays.
 
 ## Roadmap
 

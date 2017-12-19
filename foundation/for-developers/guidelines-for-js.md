@@ -20,7 +20,9 @@ TBD.
 
 ### Features That Need to be Transpiled
 
-*     List the features that need to be transpiled due to our target device & browsers.
+<!--*     List the features that need to be transpiled due to our target device & browsers.-->
+*   Spread Operators
+*   Arrow Functions
 
 TBD.
 
@@ -130,3 +132,4 @@ The following JS libraries are used (some optionally):
 *   VueJS - [Website](https://vuejs.org/)
 *   Modernizr - [Website](https://modernizr.com), [Our Custom Build](https://modernizr.com/download?canvas-cssanimations-customevent-eventlistener-flexbox-flexboxlegacy-flexboxtweener-geolocation-history-json-localstorage-regions-svg-touchevents-video-websockets-setclasses)
 *   GSAP - [Website](http://greensock.com/gsap)
+*   ZingTouch - [Website](https://zingchart.github.io/zingtouch/)

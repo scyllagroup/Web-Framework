@@ -2,6 +2,7 @@
 [Documentation](/) / Components / Tabs
 </div>
 
+
 # Tabs
 
 ## Highlights
@@ -10,14 +11,15 @@
 *   _Data attributes below should be applied to the element used as a toggle._
 *   Use `data-default` to identify the default active tab on load.
 *   Use `data-reveal` to provide a CSS query selector to the element that you would like to toggle on/off on click or touch.
+*   Every toggle has one corresponding element to be toggled through the 'data-reveal' attribute.
 *   Tabs can (optionally) be grouped together so only 1 can be active at a time. Create groups with the `data-group` attribute.
 *   You can force tab groups to always leave at least 1 tab active with the `data-always-open` attribute.
 *   An active tab element will contain the modifier class `.-active` which can be used for styling.
 *   By applying a custom `data` attribute above it will imply a truthy condition.
+*   Use `data-set-height` to provide a css selector of the parent element for a group of tabs. This will set the height of the parent element to the height of the           biggest child tab element. 
+*   If the `data-set-height` attribute is used with the `data-stacked` attribute, the height of the parent element will be calculated with the sum of all child              tab elements.
 
-</div>
 
-<div>
 
 ## Roadmap
 
@@ -28,12 +30,8 @@
 *   Map data attributes to options / properties.
 *   Aria testing needs to be performed and appropriate attributes added to markup.
 
-</div>
 
-</div>
-
-</div>
-
+<!--
 <div class="example -bg-tertiary1">
 
 <div class="flex -pad -wrap-60">
@@ -61,3 +59,4 @@
 </div>
 
 </div>
+-->
