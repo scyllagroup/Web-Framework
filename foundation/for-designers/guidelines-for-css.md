@@ -23,7 +23,11 @@ Cascading Style Sheets [CSS] started out as a simple way of applying basic desig
 
 ### Anatomy of CSS
 
-TBD.
+This is the basic structure of writting CSS code:
+
+`p {color: blue;}`
+
+Where the `p` references all paragraph tags `<p>` in the given css scope, and is referred to as a selector. What follows the selector is an object that contains rules or **styles** that will be applied to the selector preceeding the rule set, known as the **declaration**. Every style follows the same written convention; define the property you want to change, define the new property value, and then end the line with a semicolon. Every declaration begins and ends with a set of `{ }` to keep them contained and scoped to the selector(s) that preceeded them.
 
 ### What is SCSS
 
@@ -38,10 +42,10 @@ SCSS isn't something that the browser understands natively, so we have to transp
 
 | Format | Type | Explanation | Usage |
 |--------|------|-------------|-------|
-| **#id** | Component | Represents a major page component, non-repeatable. | Rare |
+| **#id** | Component | Represents a major or unique page component, non-repeatable. | Infrequent |
 | **.class** | Element | Represents repeatable components or elements. | Frequent |
-| **.-class** | Modifier | Used to modify, change, or update properties of specific elements or components. They do not exist on their own. | Extensive |
-| **._class** | Hook | Should only be used as a way to target elements from JavaScript code. | Least |
+| **.-class** | Modifier | Used to modify, change, or update properties of specific elements or components. They do not exist on their own. | Frequent |
+| **._class** | Hook | Should only be used as a way to target elements from JavaScript code. | Rare |
 
 ### SCSS & The Build System
 

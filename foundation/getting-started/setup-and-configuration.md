@@ -6,7 +6,7 @@
 
 ## Starting a New Project
 
-New projects can be started by any team member. Visit out [Git repository](http://git.scylla.local/Repository/Index) to create new projects. Under the **Scylla** header you'll find a project called **webframework-ui**. Click this project to view the detail page. You can then use the clone button to create your new project from the latest and greatest version of the web framework.
+New projects can be started by any team member. Visit our [Git repository](http://git.scylla.local/Repository/Index) to create new projects. Under the **Scylla** header you'll find a project called **webframework-ui**. Click this project to view the detail page. You can then use the clone button to create your new project from the latest and greatest version of the web framework.
 
 Convention is important and will help us maintain a clean and organized repository. Please use the website address followed by a hyphen (-) and finally the word design. For example: **scyllagroup.com-design**, or use the client name **scyllagroup-design**.
 

@@ -21,4 +21,4 @@ Web Framework has a specific file and folder structure that must be maintained. 
 
 ## Some files are hidden from view in Visual Studio Code
 
-Yes. TBD.
+Files that do not typically need to be edited manually are hidden from the file structure. This reduces file clutter, and makes the project much easier to navigate. If for any reason you may need to edit a hidden file, you can toggle it's display value in the workspace settings file.

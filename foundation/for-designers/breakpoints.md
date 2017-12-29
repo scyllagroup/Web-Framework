@@ -11,7 +11,7 @@ Breakpoints, based on the display width of the device, have been established to 
 *   Begin your CSS at the mobile breakpoint first.
 *   Progressively enhance the display of content, including additions to feature or function.
 
-The following breakpoints have been established but can easily be adjusted in the framework. I'd like to compile some data on common browser sizes for early 2016 and update this so that **Extra Small** targets legacy mobile devices, **Small** targets mobile devices, **Medium** targets tablets, and **Large** targets desktop and television environments.
+The following breakpoints have been established but can easily be adjusted in the framework. I'd like to compile some data on common browser sizes for early 2016 and update this so that **Extra Small** targets legacy mobile devices, **Small** targets mobile devices, **Medium** targets tablets and most laptops, and **Large** targets desktop and television environments.
 
 ## What are our breakpoints?
 
@@ -28,6 +28,7 @@ There are cases where you may want to do something specific for a breakpoint - s
 
 *   Target a breakpoint to change the size of a column.
 *   Show or hide content based on the breakpoint we are in.
+*   Change the behavior of elements in the DOM between breakpoints
 
 TBD.
 

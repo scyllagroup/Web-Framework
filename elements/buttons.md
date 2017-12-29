@@ -24,16 +24,19 @@
 
 The three types of buttons are: flat, rectangular, and circular. All buttons are **rectangular** by default.
 
-There are special considerations for **circular**. The child element should be media (gif, png, or svg) and the media should have a 1:1 aspect ratio for the button to remain a perfect circle.
 
-<button class="-flat">Flat</button>
+## Default
+Default buttons contain a strong background fill color, and noticeable border lines.
 <button>Rectangular</button>
 
 ## Flat
-
-## Default
+Flat buttons have subtle outlines and no fill backgrounds.
+<button class="-flat">Flat</button>
 
 ## Circular
+There are special considerations for circular buttons. The child element should be media (gif, png, or svg) and the media should have a 1:1 aspect ratio for the button to remain a perfect circle.
+
+## Usage
 
 Buttons should look similar accross all devices and browsers. So we reset things like the font, background, padding, border, and margins. Also buttons should appear the same regardless of the HTML element they use, like <span class="code"><a></span> or <span class="code"><button></span> or <span class="code"><input></span>.
 
