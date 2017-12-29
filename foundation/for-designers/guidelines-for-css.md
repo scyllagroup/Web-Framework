@@ -53,7 +53,11 @@ TBD.
 
 ## Best Practices
 
-TBD.
+In general it's best to keep all CSS written in a correctly scoped stylesheet. Within the framework project every CSS file is labeled appropriately and put into an appropriate folder. For example, the CSS for **buttons** is located in the **elements** folder and titled **buttons.scss**. This keeps all our CSS rulesets grouped neatly, and makes them easier to find and edit. 
+
+One thing to avoid, unless absolutely necessary, is writing inline CSS rules. Because inline styles are very specific styles within CSS rules, they'll overwrite almost every other style applied to that element. This can lead to confusion among the development team and even impede development. Most of the time your CSS should be able to be written within a file, commented, and should be easy for anyone else working with the project to locate.
+
+When writing styles using the framework, its important to keep in mind that we don't try to create adaptive presentations. Our code is not written to look perfect on every available screen size, but to think mobile first and build up from there.
 
 ## References
 

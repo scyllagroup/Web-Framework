@@ -24,13 +24,17 @@ The following breakpoints have been established but can easily be adjusted in th
 
 ## How do we target specific breakpoints?
 
+Our breakpoints are written in SASS, and will be compiled into media queries when a project is built so that the browsers can interpret them properly. To call a breakpoint in your CSS you would write `@include breakpoint` and then attach a suffix of `-xs`, `-s`, `-m`, or `-l` followed by a CSS declaration.
+
+`@include breakpoint-m { /*styles go here */ }`
+
 There are cases where you may want to do something specific for a breakpoint - so a few utlility classes have been made available to perform the following:
 
 *   Target a breakpoint to change the size of a column.
 *   Show or hide content based on the breakpoint we are in.
 *   Change the behavior of elements in the DOM between breakpoints
 
-TBD.
+With the exception of the **xs-breakpoint**, all breakpoints work from their listed breakpoint and up. Using **breakpoint-m** in your CSS will target all breakpoints from a medium screen and above. The breakpoints cascade in an intuitive manner so that you can use multiple breakpoints on any given element if needed. For instance, if something needs to be 4 columns on the medium breakpoint but needs to be 2 columns on the large breakpoint, the CSS is set up so that it will not overwrite any large breakpoint styles with medium breakpoint styles if both have been defined on your element.
 
 ## What are the latest statistics for screen resolutions?
 
@@ -48,3 +52,5 @@ TBD.
 | 320x568 | 3.96% |
 | 1280x800 | 3.82% |
 | 1600x900 | 3.29% |
+
+These screen sizes were used to determine our current breakpoint system. It is possible that the values will change as various screen size cycle in and out of use. The goal with the breakpoint system isn't to make a pixel perfect presentation, but to encapsulate a variety of screen sizes within each breakpoint that allow the presentation to continually make sense and stay fluid.

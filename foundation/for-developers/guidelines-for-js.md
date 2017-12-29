@@ -52,7 +52,7 @@ TBD.
 
 ### Architecture
 
-Blocks of JS code may intentionally require different execution times. Sometimes we will write a script that we desire _immediate execution_ and other times we may wish for the _pege to finish loading_ . Other times, we may execute immediately and allow our code itself to determine the next steps. So our architecture needs to support this type of lazy loading - where scripts can be executed when we desire, no matter their place in the HTML.
+Blocks of JS code may intentionally require different execution times. Sometimes we will write a script that we desire _immediate execution_ and other times we may wish for the _page to finish loading_ . Other times, we may execute immediately and allow our code itself to determine the next steps. So our architecture needs to support this type of lazy loading - where scripts can be executed when we desire, no matter their place in the HTML.
 
 I've used [the Revealing Module Pattern](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascript) to initiate the main object, _app_, in the global namespace and return some public methods which can be called by the widgets we create.
 
