@@ -2,9 +2,9 @@
 [Documentation](/) / Foundation / Getting Started / Setup and Configuration
 </div>
 
-## Setup and Configuration
+# Setup and Configuration
 
-### Install the Necessary Dependencies
+## Install the Necessary Dependencies
 
 You'll first need to install the following software on your computer. 
 
@@ -21,7 +21,7 @@ Install yarn by running the following command in the *command line* or *terminal
 npm i yarn -g
 ```
 
-### Download & Install the Web Framework
+## Download & Install the Web Framework
 
 In your *command line* or *terminal* you can now use the `git` command to pull down the Web Framework. You'll then install the dependencies using the package manager bundled with NodeJS `npm`, or you can use `yarn` (another optional install but our recommended package manager).
 
@@ -33,6 +33,12 @@ cd web-framework
 yarn
 ```
 
+## Install the SSL Certificate for Local Development
+
+<p class="danger">These instructions are for Windows users. Mac users will need to research how to import and trust our self-signed certificate <em>my-cert.pfx</em>.</p>
+
+To avoid the "invalid certificate" error from your browser when running the Web Framework we've created a self-signed SSL certificate. You'll need to import this file using the `importcert.ps1` script at the root folder. This script will import the `my-cert.pfx` file, and then browsers should recognize and trust the certificate moving forward.
+
 ### Using the Web Framework
 
 Now that you have the necessary software isntalled and you've cloned the project to your computer you can begin using the Web Framework. The Web Framework uses a package called BrowserSync that spins up a local web server so you can view your work in real-time, synced across multiple browsers if you choose to. The command to start the server is simply: 
@@ -43,7 +49,7 @@ npm run serve
 
 If you open up the `package.json` file you will find other commands are available.
 
-### Starting a New Project
+## Starting a New Project
 
 More often than not the reason we need to download and install the Web Framework is to create a new UI/UX prototype for a new project. The steps are the same as above under **Download & Install the Web Framework** but afterwards you will need to:
 
